@@ -1,0 +1,97 @@
+body{
+	background-color: #f2f2f2;
+}
+
+.header{
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 80px;
+	background-color: #f2f2f2;
+	font-size: 40px;
+	line-height: 80px;
+	text-align: center;
+	color: blueviolet;
+}
+
+.mainmenu{
+	position: fixed;
+	top: 80px;
+	left: 0;
+	width: 100%;
+	height: 40px;
+	background-color: #f2f2f2;
+	border-bottom: 1px solid gray;
+	border-top: 1px solid gray;
+}
+	
+	.menu_item{
+		display: inline-block;
+		width: 19%;
+		border-left: 1px solid gray;
+		text-align: center;
+		font-weight: bold;
+		height: 40px;
+		line-height: 40px;
+		cursor: pointer;
+	}
+
+.content{
+	width: 90%;
+	margin-top: 120px;
+	background-color: #f2f2f2;
+	margin-left: 3%;	
+}
+
+	p{
+		font-size: 20px;
+		text-indent: 20px;
+	}
+	
+.book_look{
+	height: 50px;
+	line-height: 50px;
+	margin-top: 10px;
+}
+
+.book_look img{
+	height: 100%;
+	float: left;
+	margin-right: 20px;
+}
+
+.book_look span{ 
+	width: 200px;
+	display: inline-block;
+}
+
+.book_look label{
+	margin-left: 40px;
+}
+
+.footer{
+	position: fixed;
+	bottom: 0;
+	left: 0;
+	width: 100%;
+	height: 40px;
+	background-color: gray;
+}
+
+.autor{
+	width: 60%;
+	height: 400px;
+	padding: 10px;
+	margin-bottom: 30px;
+}
+
+.autor img{
+	width: 40%;
+	float: left;
+	margin-right: 20px;
+}
+
+.autor h3{
+	margin-top: 0;
+}

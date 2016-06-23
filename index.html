@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Главная</title>
+<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+<meta http-equiv="content-style-type" content="text/css">
+<meta http-equiv="expires" content="0">
+<link href="main.css" rel="stylesheet" type="text/css">
+<script type="text/javascript">
+	function change_page(par) {
+		switch(par) {
+			case 1:
+			document.location.href = "index.html";
+			break;
+			case 2:
+			document.location.href = "books.html";
+			break;
+			case 3:
+			document.location.href = "news.html";
+			break;
+			case 4:
+			document.location.href = "autors.html";
+			break;
+			case 5:
+			document.location.href = "about.html";
+			break;
+			default:
+			break;
+		}
+	}
+</script>
+</head>
+<body>
+	<div class="header">Сообщество христианских писателей</div>
+	<div class="mainmenu">
+		<div class="menu_item" onclick="change_page(1)">Главная</div>
+		<div class="menu_item" onclick="change_page(2)">Книги</div>
+		<div class="menu_item" onclick="change_page(3)">Новости</div>
+		<div class="menu_item" onclick="change_page(4)">Авторы</div>
+		<div class="menu_item" onclick="change_page(5)">О нас</div>
+	</div>
+	<div class="content">
+		<br>
+		<h1>Приветствуем вас, друзья.</h1>
+		<p>
+			<cite>
+			 Данный сайт разработан для желающих попробовать себя в роли писателя. 
+			 Вы не станете лучше писать, посетив этот сайт, но здесь вы сможете увидеть как другие, подобные вам начинающие писатели, 
+			 смогли написать свою первую книгу, за ней вторую, и ещё одну... Иными словами, вы поймёте, что писать книги можно и нужно,
+			 даже если у вас мало опыта или если у вас нет достаточно средств для издания вашей книги.
+			 </cite> 
+			 
+		</p>
+	</div>
+	<div class="footer"></div>
+</body>
+</html>
